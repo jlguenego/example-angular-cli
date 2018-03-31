@@ -22,4 +22,8 @@ describe('FooterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should be 2018', () => {
+    expect(component.now).toBe(2018);
+  });
 });
