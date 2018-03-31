@@ -7,8 +7,8 @@ describe('example-angular-cli App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display 2018', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getYear()).toEqual('2018');
   });
 });
